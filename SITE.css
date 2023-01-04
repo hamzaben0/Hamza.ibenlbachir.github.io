@@ -1,0 +1,168 @@
+*{
+	font-family:'Poppins','sans-serif';
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+header{
+	background: url('images/592367.jpg');
+	background-size: cover;
+	width: 100%;
+	align-items: center;
+	padding: 15px 200px;
+	position: fixed;
+	display: flex;
+	z-index: 999;
+	justify-content: space-between;
+}
+.logo{
+	color: rgb(42, 165, 134);
+	font-weight: 700;
+	font-size: 22px;
+}
+.nav a{
+	color:rgb(42, 165, 134);
+	padding-left: 35px;
+	font-size: 18px;
+	font-weight: 500;
+}
+.nav a:hover{
+	color: white;
+}
+section{
+	padding: 100px 200px;
+}
+.menu{
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	background: url('images/Capwefture.PNG') no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.menu h2{
+	color: red;
+	font-size: 22px;
+	font-weight: 500;
+}
+.menu h2 span{
+	background:url('images/592367.jpg');
+	color: white;
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 30px;
+	font-weight: 700;
+}
+.menu h3{
+	color: Red;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.menu h3 a:hover{
+	color: white;
+	background-color: black;
+}
+.um5{
+	border: 5px black solid;
+	border-radius: 15px;
+	margin-bottom: 20px;
+	transition: 0.7s ease;
+}
+.um5:hover{
+	transform: scale(1.1);
+}
+.social a {
+	font-size: 23px;
+	padding-right: 30px;
+}
+.title{
+	text-align: center;
+	color:rgb(42, 165, 134);
+	font-size: 2.2em;
+	font-weight: 800;
+	margin: 10px;
+}
+.title span{
+	text-decoration: underline;
+	color: blue;
+	font-size: 0.8em;
+	font-weight: 500;
+	display: flex;
+	justify-content: left;
+}
+.content{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.mod{
+	display: flex;
+	justify-content: center;
+	background: white;
+	width: 21.25em;
+	box-shadow: 0 5px 25px rgba(1,1,1,25%);
+	border-radius: 50px;
+	padding: 25px;
+	margin: 20px;
+	transition: 0.5s ease;
+}
+.mod:hover{
+	transform: scale(1.3);
+}
+.mod img{
+	height: 7em;
+	width: 7em;
+}
+hr{margin: 25px;}
+address{
+	display: flex;
+	align-items: center;
+	font-size: larger;
+	font-weight: 900;
+}
+.contact .mod{
+	width:90%;
+	margin:70px;
+}
+.contact{
+	background-image: url('images/sky.jpg');
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+}
+.footer{
+	color: white;
+	background: url('images/592367.jpg');
+	background-size: cover;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 35px;
+}
+.social2 a{
+	padding-left: 35px;
+}
+.fp{
+	font-size: 20px;
+	font-weight: 700;
+	padding: 10px;
+}
+.fp span{
+	color:rgb(42, 165, 134);
+}
+@media (max-width:1023px){
+	
+}
+.smi{
+	background-color:grey;
+}
+details{
+	text-align:center
+}
